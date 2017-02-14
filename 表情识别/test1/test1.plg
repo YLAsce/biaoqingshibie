@@ -1,0 +1,119 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: test1 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/test1.res" /d "_DEBUG" /d "_AFXDLL" "I:\19216821442008526124666417285\expressionsb\test1\test1.rc"" 
+Creating temporary file "C:\Users\lundon\AppData\Local\Temp\RSPB1A.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/test1.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"I:\19216821442008526124666417285\expressionsb\test1\ChildFrm.cpp"
+"I:\19216821442008526124666417285\expressionsb\test1\DIB.cpp"
+"I:\19216821442008526124666417285\expressionsb\test1\DlgDetectFrame.cpp"
+"I:\19216821442008526124666417285\expressionsb\test1\DlgDisplayFrames.cpp"
+"I:\19216821442008526124666417285\expressionsb\test1\DlgKeyResult.cpp"
+"I:\19216821442008526124666417285\expressionsb\test1\DlgResult.cpp"
+"I:\19216821442008526124666417285\expressionsb\test1\DlgTemp.cpp"
+"I:\19216821442008526124666417285\expressionsb\test1\EGraph.cpp"
+"I:\19216821442008526124666417285\expressionsb\test1\EGTemp.cpp"
+"I:\19216821442008526124666417285\expressionsb\test1\ExpStrategy.cpp"
+"I:\19216821442008526124666417285\expressionsb\test1\MainFrm.cpp"
+"I:\19216821442008526124666417285\expressionsb\test1\test1.cpp"
+"I:\19216821442008526124666417285\expressionsb\test1\test1Doc.cpp"
+"I:\19216821442008526124666417285\expressionsb\test1\test1View.cpp"
+"I:\19216821442008526124666417285\expressionsb\test1\YeahDlg.cpp"
+]
+Creating command line "cl.exe @C:\Users\lundon\AppData\Local\Temp\RSPB1A.tmp" 
+Creating temporary file "C:\Users\lundon\AppData\Local\Temp\RSPB2B.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/test1.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"I:\19216821442008526124666417285\expressionsb\test1\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\lundon\AppData\Local\Temp\RSPB2B.tmp" 
+Creating temporary file "C:\Users\lundon\AppData\Local\Temp\RSPB2C.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/test1.pdb" /debug /machine:I386 /out:"Debug/test1.exe" /pdbtype:sept 
+.\Debug\ChildFrm.obj
+.\Debug\DIB.obj
+.\Debug\DlgDetectFrame.obj
+.\Debug\DlgDisplayFrames.obj
+.\Debug\DlgKeyResult.obj
+.\Debug\DlgResult.obj
+.\Debug\DlgTemp.obj
+.\Debug\EGraph.obj
+.\Debug\EGTemp.obj
+.\Debug\ExpStrategy.obj
+.\Debug\MainFrm.obj
+.\Debug\StdAfx.obj
+.\Debug\test1.obj
+.\Debug\test1Doc.obj
+.\Debug\test1View.obj
+.\Debug\YeahDlg.obj
+.\Debug\test1.res
+]
+Creating command line "link.exe @C:\Users\lundon\AppData\Local\Temp\RSPB2C.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+ChildFrm.cpp
+DIB.cpp
+DlgDetectFrame.cpp
+DlgDisplayFrames.cpp
+DlgKeyResult.cpp
+I:\19216821442008526124666417285\expressionsb\test1\DlgKeyResult.cpp(116) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+I:\19216821442008526124666417285\expressionsb\test1\DlgKeyResult.cpp(124) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+DlgResult.cpp
+DlgTemp.cpp
+EGraph.cpp
+I:\19216821442008526124666417285\expressionsb\test1\EGraph.cpp(188) : warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+I:\19216821442008526124666417285\expressionsb\test1\EGraph.cpp(194) : warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+I:\19216821442008526124666417285\expressionsb\test1\EGraph.cpp(198) : warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+I:\19216821442008526124666417285\expressionsb\test1\EGraph.cpp(200) : warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+I:\19216821442008526124666417285\expressionsb\test1\EGraph.cpp(202) : warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+I:\19216821442008526124666417285\expressionsb\test1\EGraph.cpp(204) : warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+I:\19216821442008526124666417285\expressionsb\test1\EGraph.cpp(334) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+I:\19216821442008526124666417285\expressionsb\test1\EGraph.cpp(454) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+EGTemp.cpp
+ExpStrategy.cpp
+MainFrm.cpp
+test1.cpp
+test1Doc.cpp
+test1View.cpp
+YeahDlg.cpp
+Generating Code...
+Linking...
+Creating temporary file "C:\Users\lundon\AppData\Local\Temp\RSP3068.tmp" with contents
+[
+/nologo /o"Debug/test1.bsc" 
+.\Debug\StdAfx.sbr
+.\Debug\ChildFrm.sbr
+.\Debug\DIB.sbr
+.\Debug\DlgDetectFrame.sbr
+.\Debug\DlgDisplayFrames.sbr
+.\Debug\DlgKeyResult.sbr
+.\Debug\DlgResult.sbr
+.\Debug\DlgTemp.sbr
+.\Debug\EGraph.sbr
+.\Debug\EGTemp.sbr
+.\Debug\ExpStrategy.sbr
+.\Debug\MainFrm.sbr
+.\Debug\test1.sbr
+.\Debug\test1Doc.sbr
+.\Debug\test1View.sbr
+.\Debug\YeahDlg.sbr]
+Creating command line "bscmake.exe @C:\Users\lundon\AppData\Local\Temp\RSP3068.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+test1.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
